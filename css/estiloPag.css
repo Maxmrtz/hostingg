@@ -1,0 +1,116 @@
+body{
+font-family: 'ancient';
+font-size: 23px;
+color:black;
+margin-left: 50px;
+margin-right: 50px;
+padding: inherit;
+background-image: url( ../multimedia/papiro.jpg);
+}
+
+img{
+margin: 15px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #DCA123;
+	width: 100%;
+}
+nav ul li{
+	max-width: 1000px;
+}
+nav li {
+    float: center;
+	max-width:1000px ;
+	border-right:1px solid #FFFFFF;
+}
+
+nav li a {
+    display: block;
+    color: black;
+    text-align: justify;
+    text-decoration: none;
+
+
+}
+
+nav li a:hover:not(.active) {
+    background-color: #AC8123;
+}
+
+.active {
+    background-color: #704F07;
+}
+
+header nav{
+background:black;
+overflow:hidden;
+text-decoration: none;
+
+
+}
+
+header nav ul{
+list-style:none;
+}
+
+header nav ul li{
+float:left;
+}
+
+header nav ul li a{
+padding: 30px 30px;
+margin: auto;
+display:block;
+text-decoration:none;
+clear: both;
+float: left;
+width: 100%;
+list-style: white;
+}
+
+header nav ul li a:hover{
+background-color: #F9DB7A;
+text-decoration: none;
+color: aliceblue;
+}
+
+.main {
+margin-right:35px;
+background:#F9DB7A;
+margin-left: 35px;
+padding: 30px;
+border-color:#F9DB7A ;
+
+}
+footer{
+background-color:#704F07;
+color: black;
+max-width: 1500px;
+margin: 20px;
+padding-left: 20px;
+padding-top: 20px;
+clear:both;
+font-weight: bold;
+font-style: italic;
+font-family: 'ancient';
+font-size: 80%;
+}
+pre{
+	color: black;
+	background-color: #704F07;
+	border: #704F07;
+}
+p{
+font-size: 20px;
+font-style: normal;
+font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+
+}
+h1{
+font-size: 30px;
+}
